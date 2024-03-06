@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#generateBtn {
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#generateBtn:hover {
+    background-color: #45a049;
+}
+
+#story {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    min-height: 200px;
+}
